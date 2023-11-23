@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-res = cv2.imread("resim/resim.jpeg")
+res = cv2.imread("resim/minyonlar.jpeg")
 cv2.imshow("Deneme", res)
 B = res[:, :, 0]
 G = res[:, :, 1]
